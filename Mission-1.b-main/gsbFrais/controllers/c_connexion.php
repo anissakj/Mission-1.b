@@ -6,7 +6,7 @@ $action = $_REQUEST['action'];
 switch ($action) {
     case 'demandeConnexion':
     {
-        include'views/v_menu.php';
+        include("views/v_menu.php");
         include("views/v_connexion.php");
         break;
     }

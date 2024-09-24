@@ -131,3 +131,18 @@ table.listeLegere th.libelle{
     margin-bottom: 0.1em;
 }
 
+
+.encadree{
+
+    background-color: var(--color1);
+    padding: 30px;
+    /*width: 800px;*/
+    color: var(--color4);
+    text-shadow: 0 0 8px var(--color4);
+    text-align: left;
+    margin: 0.1em;
+    margin-right: 5em;
+}
+
+
+

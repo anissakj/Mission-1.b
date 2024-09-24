@@ -10,14 +10,12 @@ switch($action){
 		break;
 	}
 	case 'etatvisiteur':{
-        $idVisiteur = $_REQUEST['idVisiteur'];
-        $typesfrais = $_REQUEST['typesfrais'];
-
-
-		getLesInfosFicheFrais()
-
+		$idVisiteur = $_REQUEST['idVisiteur'];
+		$typesfrais = $_REQUEST['typesfrais'];
+		$resultat = $pdo->getResultat($idVisiteur, $typesfrais);
 		//$dateModif =  dateAnglaisVersFrancais($dateModif);
 		include("views/v_etat.php");
+		break;
 	}
 
 }

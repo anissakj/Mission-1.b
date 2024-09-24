@@ -34,6 +34,7 @@ switch($action){
 
 		//$dateModif =  dateAnglaisVersFrancais($dateModif);
 		include("views/v_etatFrais.php");
+		break;  
 	}
 
 }
